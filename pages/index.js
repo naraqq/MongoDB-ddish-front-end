@@ -40,7 +40,7 @@ export default function Home() {
                   <div key={index}>
                     <Cell data={list} index={index} func={setStats} stats={stats} />
                   </div>)
-                  : null
+                  : <div className='text-[14px] p-3'>Server холбогдоогүй байна.</div>
               }
             </div>
             {
